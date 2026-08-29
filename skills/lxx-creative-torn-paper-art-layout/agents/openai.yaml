@@ -1,0 +1,7 @@
+interface:
+  display_name: "LXX-Creative Torn-Paper Art Layout"
+  short_description: "将真实照片保真转化为四种高质感撕纸编辑艺术海报"
+  default_prompt: "Use $lxx-creative-torn-paper-art-layout to turn my original photo into a source-faithful torn-paper editorial poster."
+
+policy:
+  allow_implicit_invocation: true
