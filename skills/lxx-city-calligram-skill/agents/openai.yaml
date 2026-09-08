@@ -1,0 +1,4 @@
+interface:
+  display_name: "LXX City Calligram Skill"
+  short_description: "Turn city photos into editorial calligram posters"
+  default_prompt: "Use $lxx-city-calligram-skill to turn this city photo into a typographic illustration poster."
