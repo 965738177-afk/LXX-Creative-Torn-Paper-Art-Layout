@@ -1,6 +1,6 @@
 ---
 name: lxx-city-calligram-skill
-description: Transform one or more city photographs into premium 3:4 editorial posters whose lower panel reconstructs the photographed subject from city-led English typography. Use for city calligrams, typographic travel posters, “文字即图像” photo treatments, or requests to reproduce this specific two-panel style.
+description: Transform city photographs into editorial calligram posters or cohesive city cultural-product concepts, including colorful DIY, souvenir, stationery, and food-product visuals. Use for city calligrams, typographic travel posters, or city merch concept requests.
 ---
 
 # LXX City Calligram Skill
@@ -38,6 +38,39 @@ Do not invent facts, event names, venue names, brands, or sentimental claims not
 - Add only restrained editorial microcopy or a handwritten accent when it improves balance. Do not add Chinese text, logos, app UI, watermarks, borders, or unrelated slogans unless requested.
 
 When processing multiple photos, generate separate outputs and vary the lower composition around each image's subject rather than cloning one layout.
+
+## City cultural-product mode
+
+Use this mode when the user wants a city visual system extended into merchandise, souvenirs, colorful handmade DIY, or a small tourism product collection. Confirm the city with the same rule above before generating any city name, landmark label, or map reference.
+
+Treat the photo's main landmark, creature, plant, waterfront, architecture, or activity as the product's recognizable form. Extract a limited color palette from the photo, then simplify it into 3–5 bold, manufacturable colors. Keep one consistent city identity across a series rather than applying unrelated graphics to arbitrary goods.
+
+Choose only the products that fit the subject and the user's purpose. Useful product families include:
+
+- **Collectible souvenirs:** raised PVC, acrylic, ceramic, metal, or wood refrigerator magnets; enamel pins; keychains; bag charms; miniature landmark figurines; coasters.
+- **Paper and sticker goods:** postcards, stamp sheets, vinyl stickers, sticker packs, washi tape, mini maps, notebooks, bookmarks, luggage tags, collectible city cards.
+- **Colorful DIY:** paint-your-own blank figurines, layered wooden plaques, color-by-number postcards, miniature diorama kits, simple screen-print or rub-on transfer kits. Show a restrained palette, paint pots, and an achievable before/after result when relevant.
+- **Food and seasonal concepts:** molded ice pops, ice-cream wrappers, cookie tins, beverage cups, and picnic packaging. Use these as visual concepts only; do not make food-safety, ingredient, or commercial availability claims.
+- **Everyday lifestyle goods:** canvas totes, T-shirts, caps, mugs, bottles, umbrellas, phone grips, desk calendars, and small storage pouches.
+
+Favor high-readability silhouettes and a small number of construction layers. For physical mockups, make material, thickness, attachment, and edges believable: magnets need a visible magnet/backing; pins need metal outlines or a pin back; acrylic needs clean cut edges; molded ice pops need a stick and realistic frozen texture; DIY kits need separable parts and a limited number of colors.
+
+For a product series, first define a compact design system: confirmed city name, one hero landmark or motif, 3–5 colors, one line style, and one type style. Then create one product or one coherent product set at a time. Avoid unreadable microtext, copied brand marks, and packaging that imitates a real brand.
+
+### Cultural-product prompt scaffold
+
+```text
+Use case: product-mockup
+Asset type: city cultural-product concept / product series
+Confirmed city: <CITY>
+Hero landmark or motif: <SUBJECT>
+Product(s): <SELECTED PRODUCT TYPE(S)>
+Image-derived color palette: <3–5 COLORS>
+
+Design a cohesive, manufacturable city cultural-product concept. Turn the hero landmark or motif into the recognizable product silhouette or graphic system. Keep “<CITY>” correctly spelled as the primary location label, and use only short image-derived supporting words. Use the selected palette consistently across every item. Show realistic materials, construction, thickness, edges, fastening, and scale.
+
+For DIY items, include an achievable limited-color process and a finished colorful result. For an ice pop or food-themed concept, show an original molded form and packaging without copying any real brand. Use clean editorial product photography or a premium retail presentation, with no watermarks, no UI, no invented official claims, and no copyrighted logos.
+```
 
 ## Image-generation prompt scaffold
 
